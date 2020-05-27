@@ -37,6 +37,7 @@ public class CreateReadDeleteListTest {
 	screenName = res.path("user.screen_name");
 	System.out.println("Scrren Name : "+screenName);
 	}
+	
 	@Test(dependsOnMethods = {"createList"})
 	public void readListByScreenName() {
 	RestUtilities.setEndPoint(EndPoints.LISTS_RETRIEVE);

@@ -2,7 +2,6 @@ package com.code.statuses;
 
 import static io.restassured.RestAssured.given;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
