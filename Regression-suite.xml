@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<test name="RestAssured Test">
+		<classes>
+			<class name="com.code.statuses.UserTimelineTest" />
+			<class name="com.code.statuses.TweetCreateRetrieveDeleteTest" />
+			<class name="com.code.list.CreateRetrieveDeleteTest" />
+		</classes>
+	</test>
+</suite>
