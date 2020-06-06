@@ -32,7 +32,7 @@ public class CreateReadDeleteListTest {
 	RestUtilities.createQueryParam(reqSpec,"mode","public");
 	RestUtilities.createQueryParam(reqSpec,"description","This is a createdList");
 	Response res= RestUtilities.getResponse(reqSpec, "post");
-	lid = res.path("id_str");
+	lid = res.path("id_str");	
 	System.out.println("list id "+lid);
 	screenName = res.path("user.screen_name");
 	System.out.println("Scrren Name : "+screenName);
